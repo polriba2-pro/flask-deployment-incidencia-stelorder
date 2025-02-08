@@ -105,4 +105,4 @@ def debug_webhook():
 
 if __name__ == '__main__':
     # 🔹 Arrencar el servidor Flask a la porta 5000
-    app.run()
+    app.run(host="0.0.0.0", port=10000)
